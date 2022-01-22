@@ -1,0 +1,33 @@
+{
+  "name": "avalanche-js-crypto",
+  "version": "0.2.0",
+  "description": "crypto libraries for avalanche",
+  "main": "dist/index.js",
+  "node": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "neeboo@firestack.one",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "avalanche-js-utils": "git://github.com/oavax/avalanche-js-utils.git",
+    "aes-js": "^3.1.2",
+    "bip39": "^2.5.0",
+    "bn.js": "^4.11.8",
+    "elliptic": "^6.4.1",
+    "hdkey": "^1.1.1",
+    "hmac-drbg": "^1.0.1",
+    "js-sha3": "^0.8.0",
+    "pbkdf2": "^3.0.17",
+    "scrypt-shim": "github:web3-js/scrypt-shim",
+    "uuid": "^3.3.2"
+  }
+}
